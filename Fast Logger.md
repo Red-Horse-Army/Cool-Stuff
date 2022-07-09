@@ -1,7 +1,7 @@
 # Python Script to create a fast logging endpoint
 
 ## Server
-``` Bash
+``` Python
 from flask import Flask
 
 app = Flask(__name__)
@@ -18,9 +18,13 @@ Python3 script to have a console that show messages that was sent to it
 
 ## Client
 
-``` Bash
+``` Python
 import requests
 r = request.get(site/message)
+```
+
+``` Bash
+curl Site/message
 ```
 
 Load the webiste with message after slash
